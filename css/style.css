@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.highlight {
+  color: #53ff53;
+  font-weight: bold;
+}
+.button_1 {
+  height: 35px;
+  margin-left: 2px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.button_1:hover {
+  background-color: rgba(145, 145, 255, 0.842);
+  transition-delay: 0.1s;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+/* Global */
+
+/* Header CSS */
+
+header {
+  background-color: #f2f2f2;
+  font-size: 20px;
+  min-height: 1.7em;
+  border-bottom: 3px solid #53ff53;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  float: left;
+  padding: 3px 28px;
+  color: #f2f2f2;
+}
+
+header ul li a {
+  color: #383d43;
+}
+header ul li a:hover {
+  color: rgb(0, 84, 209);
+  transition-delay: 0.1s;
+}
+.icon :hover {
+  color: red;
+  transition-delay: 0.1s;
+}
+/* header ul li a:hover:nth-child(1){
+    color: rgb(0, 84, 209);
+    transition-delay: .1s;
+}
+header ul li a:hover:nth-child(2){
+    color: rgb(0, 84, 209);
+    transition-delay: .1s;
+}
+header ul li a:hover:nth-child(3){
+    color: red;
+    transition-delay: .1s;
+}
+header ul li a:hover:nth-child(4){
+    color: red;
+    transition-delay: .1s;
+} */
+/* header ul li a:last-child:hover {
+    color: red;
+    transition-delay: .1s;
+} */
+
+/* Navbar CSS*/
+nav {
+  background-color: #383d43;
+  color: #f2f2f2;
+  font-size: 18px;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid #e44d26;
+}
+nav .logo {
+  float: left;
+}
+nav .logo h1 {
+  font-size: 35px;
+}
+nav .menu {
+  margin-top: 10px;
+}
+nav .menu ul {
+  float: right;
+}
+nav .menu ul li {
+  float: left;
+  padding: 0px 20px;
+}
+nav .menu ul li a {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+nav .menu ul li a.current {
+  color: #53ff53;
+  font-weight: bold;
+}
+nav .menu ul li a:hover {
+  color: #e44d26;
+}
+
+/* Banner CSS */
+
+#banner {
+  min-height: 400px;
+  background: url(https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGJsdXJyJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #f2f2f2;
+  text-align: center;
+}
+#banner h1 {
+  margin: 100px 0 10px 0;
+  font-size: 45px;
+}
+#banner p {
+  font-size: 20px;
+}
+
+/* Newsletter CSS */
+
+#newsletter {
+  padding: 30px;
+  color: #f2f2f2;
+  background-color: #383d43;
+}
+#newsletter h1 {
+  float: left;
+  margin-top: 15px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+#newsletter form {
+  margin-top: 15px;
+  float: right;
+}
+#newsletter form input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+}
+#newsletter form input::placeholder {
+  color: #00a7dad8;
+}
+
+/* Tools  CSS*/
+
+#box {
+  margin: 40px 0;
+}
+#box .boxes {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#box .boxes img {
+  width: 90px;
+}
+
+/* About CSS */
+
+#main {
+  margin-top: 64px;
+}
+.page-title {
+  margin: 10px 0;
+  font-size: 25px;
+}
+/* Main-col */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar {
+  float: right;
+  margin-top: 10px;
+  width: 30%;
+}
+/* Services CSS */
+
+ul#services li {
+  padding: 20px;
+  border: 1px solid #2162af;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+.quote label {
+  display: block;
+  margin: 10px 0;
+}
+.quote input {
+  width: 90%;
+  padding: 8px;
+  border-radius: 4px;
+}
+.quote textarea {
+  margin-bottom: 5px;
+  width: 90%;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Footer CSS */
+footer {
+  font-size: 18px;
+  padding: 40px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #newsletter h1,
+  #newsletter form,
+  #box .boxes,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  nav .logo {
+    margin-top: 3px;
+  }
+  nav .logo h1 {
+    font-size: 25px;
+  }
+
+  #banner h1 {
+    margin-top: 80px;
+  }
+
+  #newsletter button,
+  .quote button {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .quote input,
+  .quote textarea {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .logo h1 {
+    font-size: 16px !important;
+  }
+  nav .menu ul li a {
+    font-size: 10px;
+  }
+  #banner h1 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+  #banner p {
+    font-size: 16px;
+  }
+}
