@@ -1,3 +1,1 @@
-Simple Multipage Website
-
-    with HTML & CSS
+Simple Multipage Website with HTML & CSS.
